@@ -1,0 +1,21 @@
+{
+  "name": "pdom",
+  "description": "Access the Pingdom API through a command.",
+  "keywords": ["pingdom", "stats"],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fent/pdom.git"
+  },
+  "author": "Roly Fentanes (https://github.com/fent)",
+  "main": "./lib/index.js",
+  "bin": "./bin/pdom.js",
+  "dependencies": {
+    "argp": "~1.0.0",
+    "request": "~2.27.0"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url" : "http://github.com/fent/pdom/raw/master/LICENSE"
+  }]
+}
